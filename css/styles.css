@@ -1,0 +1,26 @@
+.jumbotron {
+    background-color: purple;
+    color: white;
+    background-image: url("../img/raisedhands.jpg");
+    background-size: cover;
+    /* opacity: .8; */
+}
+
+#socialIcons {
+    text-align: right;
+}
+
+.navbar {
+    left: 40%;
+    transform: translateX(-40%);
+}
+
+.nav-item {
+    padding: 20px;
+    color:white;
+}
+
+.fa {
+    background-color: gray;
+   
+}
