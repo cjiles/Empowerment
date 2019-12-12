@@ -1,5 +1,5 @@
 .jumbotron {
-    background-color: purple;
+    background-color: #9c1f4d;
     color: white;
     /* background-image: url("../img/raisedhands.jpg"); */
     background-size: cover;
@@ -11,7 +11,7 @@
 }
 
 .navbar-nav {
-    left: 50%;
+    left: 40%;
     transform: translateX(-40%);
 }
 
@@ -29,8 +29,26 @@ h1, h2, h3, p {
     text-align:center;
 }
 
+.card {
+    background-color: #9c1f4d;
+    color: white;
+}
 .card-footer {
+    text-align: center;
+    background-color: lightgray;
+    color: black;
+}
+
+#footerIcons {
     text-align: center;
 }
 
+.site-footer{
+    background-color: #9c1f4d;
+    color: white;
+}
+
+a {
+    color: white;
+}
 
