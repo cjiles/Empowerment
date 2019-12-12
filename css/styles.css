@@ -1,7 +1,7 @@
 .jumbotron {
     background-color: purple;
     color: white;
-    background-image: url("../img/raisedhands.jpg");
+    /* background-image: url("../img/raisedhands.jpg"); */
     background-size: cover;
     /* opacity: .8; */
 }
@@ -10,8 +10,8 @@
     text-align: right;
 }
 
-.navbar {
-    left: 40%;
+.navbar-nav {
+    left: 50%;
     transform: translateX(-40%);
 }
 
@@ -20,7 +20,17 @@
     color:white;
 }
 
-.fa {
-    background-color: gray;
+/* .fa {
+    background-color: gray; 
    
+}*/
+
+h1, h2, h3, p {
+    text-align:center;
 }
+
+.card-footer {
+    text-align: center;
+}
+
+
