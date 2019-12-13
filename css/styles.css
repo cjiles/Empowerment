@@ -1,37 +1,88 @@
-.jumbotron {
-    background-color: #9c1f4d;
-    color: white;
-    /* background-image: url("../img/raisedhands.jpg"); */
-    background-size: cover;
-    /* opacity: .8; */
+body {
+    font-family: sans-serif;
 }
 
+body, htnml{
+    height: 100%;
+}
+#homeTron {
+    background-color:white;
+    color: whitesmoke;
+    font-weight: bolder;
+    background-image: url("../img/Concert.png");
+    height: 100%;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+    /* opacity: .9; */
+}
+
+.jumbotron{
+    background-color: #9c1f4d;
+    margin: 0;
+}
+
+.parallax {
+    /* The image used */
+    background-image: url("../img/Colorful Hands.png");
+  
+    /* Full height */
+    height: 100%;
+  
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+  }
+  
+  /* turns of parallax on mobile screens */
+/* @media only screen and (max-device-width: 1366px) {
+      .parallax {
+        background-attachment: scroll;
+      }
+    } */
 #socialIcons {
     text-align: right;
 }
 
-.navbar-nav {
-    left: 40%;
-    transform: translateX(-40%);
-}
+
 
 .nav-item {
     padding: 20px;
     color:white;
 }
 
-/* .fa {
-    background-color: gray; 
-   
-}*/
 
-h1, h2, h3, p {
+h1, h2, h3 {
+    font-family: cursive;
     text-align:center;
+    color: #9c1f4d;
+}
+
+p {
+    text-align:center;
+}
+
+a {
+    color: black;
+    font-weight: bolder;
+    
+}
+
+
+.jumbotron h1{
+    color:white;
 }
 
 .card {
     background-color: #9c1f4d;
     color: white;
+    padding: 30px;
 }
 .card-footer {
     text-align: center;
@@ -41,6 +92,7 @@ h1, h2, h3, p {
 
 #footerIcons {
     text-align: center;
+    padding: 20px;
 }
 
 .site-footer{
@@ -48,7 +100,7 @@ h1, h2, h3, p {
     color: white;
 }
 
-a {
-    color: white;
-}
-
+#pageNav {
+    background-color: #901CAD;
+    color:white;
+ }
