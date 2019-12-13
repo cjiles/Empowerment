@@ -51,25 +51,23 @@ body, htnml{
 }
 
 
-
-.nav-item {
-    padding: 20px;
-    color:white;
-}
-
-
-h1, h2, h3 {
+h1, h3 {
     font-family: cursive;
     text-align:center;
-    color: #9c1f4d;
+    color:#9c1f4d;
 }
 
+h2 {
+    font-family: cursive;
+    text-align:center;
+    color:#d05378;
+}
 p {
     text-align:center;
 }
 
 a {
-    color: black;
+    color: #d05378 ;
     font-weight: bolder;
     
 }
@@ -86,8 +84,8 @@ a {
 }
 .card-footer {
     text-align: center;
-    background-color: lightgray;
-    color: black;
+    background-color:#670025;
+    color: white;
 }
 
 #footerIcons {
@@ -100,7 +98,12 @@ a {
     color: white;
 }
 
-#pageNav {
-    background-color: #901CAD;
-    color:white;
+.navbar {
+    background-color: #d15379;
  }
+
+ #findMore{
+     background-color: #670025;
+     color: white;
+ }
+ 

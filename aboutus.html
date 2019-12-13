@@ -3,10 +3,8 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     
-
     <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css" />
     <link rel="stylesheet" href="node_modules/font-awesome/css/font-awesome.min.css" />
     <link rel="stylesheet" href="node_modules/bootstrap-social/bootstrap-social.css" />
@@ -17,26 +15,36 @@
 <body>
     <header class="jumbotron jumbotron-fluid">     
         <div class="container">
-            <h1>Empowering People</h1>
-            <h3 style="color: white">Come and Join Us </h3>
+            <div class="row">
+                <div class="col">
+                    <h1>Empowering People</h1>
+                    <h3 style="color: white">Come and Join Us </h3>
+                </div>
+            </div>
         </div>
     </header>    
-    <nav class="navbar navbar-expand-sm navbar-dark sticky-top navbar-center" id="pageNavbar">
+    
+    <nav class="navbar navbar-expand-sm navbar-light sticky-top">
+            <!--Navbar-expand-sm is for small view ports. Navbar dark is to lighten up default font color, sticky-top sticks navbar to top of page. -->
             <div class="container">
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="empowerNavbar">
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#nucampNavbar">
+                    <!--ml-auto pushes toggler menu to right-->
                     <span class="navbar-toggler-icon"></span>
+                <!-- Button for Navbar.  Is in the position of code -->
                 </button>
-                <div class="collapse navbar-collapse" id="empowerNavbar">
+                <div class="collapse navbar-collapse" id="nucampNavbar">
+                    <!--Makes menu collapse when in smaller viewport.  Using the ID of the button below-->
                     <ul class="navbar-nav">
                         <li class="nav-item"><a class="nav-link" href="index.html"><i class="fa fa-home fa-lg"></i> Home</a></li>
                         <li class="nav-item active"><a class="nav-link" href="aboutus.html"><i class="fa fa-info fa-lg"></i> About</a></li>
                         <li class="nav-item"><a class="nav-link" href="#"><i class="fa fa-calendar-check-o" aria-hidden="true"></i>  Events</a></li>
                         <li class="nav-item"><a class="nav-link" href="#"><i class="fa fa-list fa-lg"></i> Ministries</a></li>
-                        <li class="nav-item"><a class="nav-link" href="prayerrequest.html"><i class="fa fa-users" aria-hidden="true"></i> Prayer Request </a></li>
+                        <li class="nav-item"><a class="nav-link" href="prayerrequest.html"><i class="fa fa-users" aria-hidden="true"></i>  Prayer Request</a></li>
+                    <!--fa class inputs icons from FontAwesome framework which was installed in folder-->
                     </ul>
                 </div>
-            </div>
-    </nav>
+            </div>       
+        </nav>
        
     <div class="container">
         <div class="row">
@@ -45,7 +53,7 @@
                     <li class="breadcrumb-item"> <a href="index.html"> Home </a> </li>
                     <li class="breadcrumb-item active"> About Us </li>
                 </ol>
-               <h2>About Us</h2>
+               <h1>About Us</h1>
           
             </div>
         </div>
@@ -53,7 +61,7 @@
     <div class="container">
         <div class="row">
             <div class="col">
-                <h2 style="text-align: left;">Mission</h2>
+                <h2>Mission</h2>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin bibendum lorem ut sapien sodales sodales. Aenean at blandit libero. Proin interdum libero non justo bibendum maximus. 
                     Fusce commodo, metus eget dignissim commodo, eros eros mollis leo, in iaculis mauris odio pulvinar dolor. Pellentesque varius porta purus, sit amet varius nulla porta in. 
                     Suspendisse finibus semper mi, in pharetra ligula imperdiet id. Morbi luctus ac mauris ultricies consectetur. Maecenas ut dolor nibh. Nulla urna leo, mollis non pulvinar a, pretium id elit. Mauris orci leo, bibendum id efficitur a, condimentum a erat. 
@@ -70,19 +78,20 @@
 
 
     <footer class="site-footer">
+       <div class="parallax">
         <div class="container">
             <div class="row">
                 <div class="col-1 col-md-3"></div>
-                <div class="col-2 col-md-1 mt-2 mx-lg-1">
+                <div class="col-2 col-md-1 mt-2 mx-lg-2">
                     <a href="index.html"> Home </a>
                 </div>
-                <div class="col-2 col-md-1 mt-2 mx-lg-1">
+                <div class="col-2 col-md-1 mt-2 mx-lg-2">
                     <a href="#"> About </a>
                 </div>
-                <div class = "col-2 col-md-1 mt-2 mx-lg-1">
+                <div class = "col-2 col-md-1 mt-2 mx-lg-2">
                     <a href="#"> Events </a>
                 </div>
-                <div class="col-2 col-md-1 mt-2 mx-lg-1">
+                <div class="col-2 col-md-1 mt-2 mx-lg-2">
                     <a href="#"> Ministries </a>
                 </div>
                 <div class="col-2 col-md-1 mt-2 mx-3 mx-lg-4">
@@ -107,8 +116,11 @@
                     <p> <i class="fa fa-copyright align-content-center" aria-hidden="true"></i> CSJ Designs</p>
                     </div>   
             </div>  
-        </div> 
+        </div>  
     </footer>
 
+    <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
+    <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
 </body>
 </html>

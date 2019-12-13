@@ -21,22 +21,28 @@
             <h3 style="color: white">Come and Join Us </h3>
         </div>
     </header>    
-    <nav class="navbar navbar-expand-sm navbar-dark sticky-top navbar-center" id="pageNav">
+    <nav class="navbar navbar-expand-sm navbar-light sticky-top">
+            <!--Navbar-expand-sm is for small view ports. Navbar dark is to lighten up default font color, sticky-top sticks navbar to top of page. -->
             <div class="container">
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="empowerNavbar">
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#nucampNavbar">
+                    <!--ml-auto pushes toggler menu to right-->
                     <span class="navbar-toggler-icon"></span>
+                <!-- Button for Navbar.  Is in the position of code -->
                 </button>
-                <div class="collapse navbar-collapse" id="empowerNavbar">
+                <div class="collapse navbar-collapse" id="nucampNavbar">
+                    <!--Makes menu collapse when in smaller viewport.  Using the ID of the button below-->
                     <ul class="navbar-nav">
                         <li class="nav-item"><a class="nav-link" href="index.html"><i class="fa fa-home fa-lg"></i> Home</a></li>
                         <li class="nav-item"><a class="nav-link" href="aboutus.html"><i class="fa fa-info fa-lg"></i> About</a></li>
                         <li class="nav-item"><a class="nav-link" href="#"><i class="fa fa-calendar-check-o" aria-hidden="true"></i>  Events</a></li>
                         <li class="nav-item"><a class="nav-link" href="#"><i class="fa fa-list fa-lg"></i> Ministries</a></li>
-                        <li class="nav-item active"><a class="nav-link" href="#"><i class="fa fa-users" aria-hidden="true"></i>  Prayer Request</a></li>
+                        <li class="nav-item active"><a class="nav-link" href="prayerrequest.html"><i class="fa fa-users" aria-hidden="true"></i>  Prayer Request</a></li>
+                    <!--fa class inputs icons from FontAwesome framework which was installed in folder-->
                     </ul>
                 </div>
-            </div>
+            </div>       
         </nav>
+       
        
     <div class="container">
         <div class="row">
@@ -49,26 +55,89 @@
              
             </div>
         </div>
+    </div>
+
+    <div class="row row-content">
+        <div class="col-12 offset-md-1">
+            <h3 style="text-align:left"> Submit a Prayer Request </h3>
+            <hr />
         </div>
- 
+    </div>   
 
-
+    <div class="container">
+        <div class="col-md-10">
+            <form>
+                <div class="form-group row">
+                    <label for="prayerRequest" class="col-md-10 col-form-label"> Please Type Your Prayer Request </label>
+                    <div class="col-md-10 mx-md-auto"> 
+                    <textarea class="form-control" rows="10" id="prayerRequest" name="prayerRequest"></textarea>                            
+                    </div>
+                </div>    
+                <div class="form-group row">
+                    <div class="col">
+                        Would you like to remain anonymous?
+                        <div class="form-check form-check-inline">
+                                <!--form-check-inline puts both radios on one line-->    
+                            <input type="radio" class="form-check-input" id="anonymousYes" name="contactRadios" value="yes" />
+                            <label for="anonymousYes" class="form-check-label"> Yes </label>
+                        </div>
+                        <div class="form-check form-check-inline">
+                            <input type="radio" class="form-check-input" id="anonymousNo" name="contactRadios" value="no" />
+                            <label for="contactNo" class="form-check-label"> No </label>
+                        </div>    
+                    </div>
+                </div> 
+                <div class="form-group row">
+                    <label for="fullName" class="col-md-10 col-form-label"> If No, Please enter your name </label>
+                    <div class="col-6 col-md-10">
+                        <input type="text" class="form-control" id="fullName" name="fullName" placeholder="Full Name" />
+                    </div>
+                </div>
+                <div class="form-group row">
+                    <div class="col-7">
+                    Would you like to for someone to contact you?
+                        <div class="form-check form-check-inline">
+                            <!--form-check-inline puts both radios on one line-->    
+                            <input type="radio" class="form-check-input" id="contactYes" name="contactRadios" value="yes" />
+                                <label for="anonymousYes" class="form-check-label"> Yes </label>
+                        </div>  
+                        <div class="form-check form-check-inline">
+                            <input type="radio" class="form-check-input" id="contactNo" name="contactRadios" value="no" />
+                                <label for="contactNo" class="form-check-label"> No </label>
+                        </div> 
+                    </div>      
+                </div>      
+                <div class="form-group row">
+                        <label for="phoneNum" class="col-md-10 col-form-label"> If yes, Please Enter Your Phone Number </label>
+                        <div class="col-6 col-md-10">
+                            <input type="tel" class="form-control" id="phoneNum" name="phoneNum" placeholder="Phone Number" />
+                        </div>
+                </div>
+                <div class="form-group row">
+                    <div class="col-2 col-lg-2">
+                        <button type="submit" class="btn btn-danger"> Send </button>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div> 
+        
 
     <footer class="site-footer">
             <div class="parallax">
             <div class="container">
                 <div class="row">
                     <div class="col-1 col-md-3"></div>
-                    <div class="col-2 col-md-1 mt-2 mx-lg-1">
+                    <div class="col-2 col-md-1 mt-2 mx-lg-2">
                         <a href="index.html"> Home </a>
                     </div>
-                    <div class="col-2 col-md-1 mt-2 mx-lg-1">
-                        <a href="#"> About </a>
+                    <div class="col-2 col-md-1 mt-2 mx-lg-2">
+                        <a href="aboutus.html"> About </a>
                     </div>
-                    <div class = "col-2 col-md-1 mt-2 mx-lg-1">
+                    <div class = "col-2 col-md-1 mt-2 mx-lg-2">
                         <a href="#"> Events </a>
                     </div>
-                    <div class="col-2 col-md-1 mt-2 mx-lg-1">
+                    <div class="col-2 col-md-1 mt-2 mx-lg-2">
                         <a href="#"> Ministries </a>
                     </div>
                     <div class="col-2 col-md-1 mt-2 mx-3 mx-lg-4">
@@ -97,5 +166,8 @@
             </div> 
         </footer>
 
+    <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
+    <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
 </body>
 </html>
