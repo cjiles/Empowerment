@@ -102,8 +102,21 @@ a {
     background-color: #d15379;
  }
 
+ /* .navbar-nav{
+     position: absolute
+    left: 30px;
+    transform: translatex(-40px);
+ } */
+ 
+
  #findMore{
      background-color: #670025;
      color: white;
  }
  
+ .navbar-nav.navbar-center{
+     position: absolute;
+     left: 50%;
+     transform: translatex(-50%);
+
+ }
