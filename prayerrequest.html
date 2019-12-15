@@ -11,38 +11,61 @@
     <link rel="stylesheet" href="node_modules/font-awesome/css/font-awesome.min.css" />
     <link rel="stylesheet" href="node_modules/bootstrap-social/bootstrap-social.css" />
     <link rel="stylesheet" href="css/styles.css" />
+    <link href="https://fonts.googleapis.com/css?family=Lobster+Two|Oswald&display=swap" rel="stylesheet">
 
     <title>Empowerment</title>
 </head>
 <body>
+
+    <header class="site-header sticky-top">
+        <div class="header-inner">
+            <div class="container">
+                <div class="row">
+                    <div class="col-4 col-md-2 col-lg-1 align-self-center">
+                        <a href="#"><img class="img-responsive logo-main" src="img/elogo.jpg" class="img-thumbnail" alt="E Logo"</img></a>
+                    </div>
+                    <div class="col-2 col-md-3 col-lg-2 align-self-center">
+                        <h2>Empowerment</h2>
+                    </div>
+                    <div class="col-8 col-lg-6 align-self-center">
+                        <nav class="navbar navbar-expand-md navbar-dark">
+                            <!--Navbar-expand-sm is for small view ports. Navbar dark is to lighten up default font color, sticky-top sticks navbar to top of page. -->
+                            <div class="container">
+                                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#empowerNavbar">
+                                    <!--ml-auto pushes toggler menu to right-->
+                                    <span class="navbar-toggler-icon"></span>
+                                <!-- Button for Navbar.  Is in the position of code -->
+                                </button>
+                                <div class="collapse navbar-collapse" id="empowerNavbar">
+                                    <!--Makes menu collapse when in smaller viewport.  Using the ID of the button below-->
+                                    <ul class="navbar-nav mx-auto text-center">
+                                        <!-- mx-auto text-center -->
+                                        <li class="nav-item active"><a class="nav-link" href="index.html"> Home</a></li>
+                                        <li class="nav-item"><a class="nav-link" href="aboutus.html"> About</a></li>
+                                        <li class="nav-item"><a class="nav-link" href="#"> Events </a></li>
+                                        <li class="nav-item"><a class="nav-link" href="#">Ministries</a></li>
+                                        <li class="nav-item"><a class="nav-link" href="prayerrequest.html"> Prayer Request</a></li>
+                                    <!--fa class inputs icons from FontAwesome framework which was installed in folder-->
+                                    </ul>
+                                </div>
+                            </div>       
+                        </nav>
+                    </div>
+                    <div class="col-4 col-md-4 col-lg-2 align-self-center">
+                        <a class="btn btn-social-icon btn-instagram" href="http://instagram.com/" style="background-color: #5b3346"><i class="fa fa-instagram"></i></a>
+                        <a class="btn btn-social-icon btn-facebook" href="http://facebook.com/"><i class="fa fa-facebook"></i></a>
+                        <a class="btn btn-social-icon btn-twitter" href="http://twitter.com/"><i class="fa fa-twitter"></i></a>
+                    </div> 
+                </div>
+        </div>
+    </header>
+    
     <header class="jumbotron jumbotron-fluid">     
         <div class="container">
             <h1>Empowering People</h1>
-            <h3 style="color: white">Come and Join Us </h3>
+            <h2>Come and Join Us </h2>
         </div>
-    </header>    
-    <nav class="navbar navbar-expand-sm navbar-light sticky-top">
-            <!--Navbar-expand-sm is for small view ports. Navbar dark is to lighten up default font color, sticky-top sticks navbar to top of page. -->
-            <div class="container">
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#empowerNavbar">
-                    <!--ml-auto pushes toggler menu to right-->
-                    <span class="navbar-toggler-icon"></span>
-                <!-- Button for Navbar.  Is in the position of code -->
-                </button>
-                <div class="collapse navbar-collapse" id="empowerNavbar">
-                    <!--Makes menu collapse when in smaller viewport.  Using the ID of the button below-->
-                    <ul class="navbar-nav mx-auto text-center">
-                        <li class="nav-item"><a class="nav-link" href="index.html"> Home </a></li>
-                        <li class="nav-item"><a class="nav-link" href="aboutus.html">About</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#"> Events</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#">Ministries</a></li>
-                        <li class="nav-item active"><a class="nav-link" href="prayerrequest.html"> Prayer Request</a></li>
-                    <!--fa class inputs icons from FontAwesome framework which was installed in folder-->
-                    </ul>
-                </div>
-            </div>       
-        </nav>
-       
+    </header>       
        
     <div class="container">
         <div class="row">

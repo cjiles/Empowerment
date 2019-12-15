@@ -1,5 +1,4 @@
 <!DOCTYPE html>
-<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -9,43 +8,54 @@
     <link rel="stylesheet" href="node_modules/font-awesome/css/font-awesome.min.css" />
     <link rel="stylesheet" href="node_modules/bootstrap-social/bootstrap-social.css" />
     <link rel="stylesheet" href="css/styles.css" />
+    <link href="https://fonts.googleapis.com/css?family=Lobster+Two|Oswald&display=swap" rel="stylesheet">
 
     <title>Empowerment</title>
 </head>
 <body>
-    <header class="jumbotron jumbotron-fluid">     
-        <div class="container">
-            <div class="row">
-                <div class="col">
-                    <h1>Empowering People</h1>
-                    <h3 style="color: white">Come and Join Us </h3>
-                </div>
-            </div>
-        </div>
-    </header>    
-    
-    <nav class="navbar navbar-expand-sm navbar-light sticky-top">
-            <!--Navbar-expand-sm is for small view ports. Navbar dark is to lighten up default font color, sticky-top sticks navbar to top of page. -->
+    <header class="site-header sticky-top">
+        <div class="header-inner">
             <div class="container">
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#empowerNavbar">
-                    <!--ml-auto pushes toggler menu to right-->
-                    <span class="navbar-toggler-icon"></span>
-                <!-- Button for Navbar.  Is in the position of code -->
-                </button>
-                <div class="collapse navbar-collapse" id="empowerNavbar">
-                    <!--Makes menu collapse when in smaller viewport.  Using the ID of the button below-->
-                    <ul class="navbar-nav mx-auto text-center">
-                        <li class="nav-item"><a class="nav-link" href="index.html"> Home</a></li>
-                        <li class="nav-item active"><a class="nav-link" href="aboutus.html"> About</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#"> Events </a></li>
-                        <li class="nav-item"><a class="nav-link" href="#"> Ministries</a></li>
-                        <li class="nav-item"><a class="nav-link" href="prayerrequest.html"> Prayer Request </a></li>
-                    <!--fa class inputs icons from FontAwesome framework which was installed in folder-->
-                    </ul>
+                <div class="row">
+                    <div class="col-4 col-md-2 col-lg-1 align-self-center">
+                        <a href="#"><img class="img-responsive logo-main" src="img/elogo.jpg" class="img-thumbnail" alt="E Logo"</img></a>
+                    </div>
+                    <div class="col-2 col-md-3 col-lg-2 align-self-center">
+                        <h2>Empowerment</h2>
+                    </div>
+                    <div class="col-8 col-lg-6 align-self-center">
+                        <nav class="navbar navbar-expand-md navbar-dark">
+                            <!--Navbar-expand-sm is for small view ports. Navbar dark is to lighten up default font color, sticky-top sticks navbar to top of page. -->
+                            <div class="container">
+                                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#empowerNavbar">
+                                    <!--ml-auto pushes toggler menu to right-->
+                                    <span class="navbar-toggler-icon"></span>
+                                <!-- Button for Navbar.  Is in the position of code -->
+                                </button>
+                                <div class="collapse navbar-collapse" id="empowerNavbar">
+                                    <!--Makes menu collapse when in smaller viewport.  Using the ID of the button below-->
+                                    <ul class="navbar-nav mx-auto text-center">
+                                        <!-- mx-auto text-center -->
+                                        <li class="nav-item active"><a class="nav-link" href="index.html"> Home</a></li>
+                                        <li class="nav-item"><a class="nav-link" href="aboutus.html"> About</a></li>
+                                        <li class="nav-item"><a class="nav-link" href="#"> Events </a></li>
+                                        <li class="nav-item"><a class="nav-link" href="#">Ministries</a></li>
+                                        <li class="nav-item"><a class="nav-link" href="prayerrequest.html"> Prayer Request</a></li>
+                                    <!--fa class inputs icons from FontAwesome framework which was installed in folder-->
+                                    </ul>
+                                </div>
+                            </div>       
+                        </nav>
+                    </div>
+                    <div class="col-4 col-md-4 col-lg-2 align-self-center">
+                        <a class="btn btn-social-icon btn-instagram" href="http://instagram.com/" style="background-color: #5b3346"><i class="fa fa-instagram"></i></a>
+                        <a class="btn btn-social-icon btn-facebook" href="http://facebook.com/"><i class="fa fa-facebook"></i></a>
+                        <a class="btn btn-social-icon btn-twitter" href="http://twitter.com/"><i class="fa fa-twitter"></i></a>
+                    </div> 
                 </div>
-            </div>       
-        </nav>
-       
+        </div>
+    </header>
+  
     <div class="container">
         <div class="row">
             <div class="col">
@@ -53,70 +63,87 @@
                     <li class="breadcrumb-item"> <a href="index.html"> Home </a> </li>
                     <li class="breadcrumb-item active"> About Us </li>
                 </ol>
-               <h1>About Us</h1>
-          
             </div>
         </div>
-        </div>
-    <div class="container">
-        <div class="row">
-            <div class="col">
-                <h2>Mission</h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin bibendum lorem ut sapien sodales sodales. Aenean at blandit libero. Proin interdum libero non justo bibendum maximus. 
-                    Fusce commodo, metus eget dignissim commodo, eros eros mollis leo, in iaculis mauris odio pulvinar dolor. Pellentesque varius porta purus, sit amet varius nulla porta in. 
-                    Suspendisse finibus semper mi, in pharetra ligula imperdiet id. Morbi luctus ac mauris ultricies consectetur. Maecenas ut dolor nibh. Nulla urna leo, mollis non pulvinar a, pretium id elit. Mauris orci leo, bibendum id efficitur a, condimentum a erat. 
-                    Aenean suscipit lectus id nisl rutrum, at efficitur nibh luctus. Nam tempor rhoncus est nec porttitor. Aenean tempus libero vitae consectetur dapibus. Sed eget tortor erat. Ut vitae est pharetra, laoreet mauris sit amet, vulputate turpis. Aliquam maximus consectetur malesuada.
-                </p>
-                <p>
-                    Proin erat nisi, suscipit vitae ex id, vestibulum vehicula dui. Maecenas ut nisi eget arcu viverra gravida sit amet et neque. Sed non ipsum nulla. Suspendisse sed pretium turpis. Sed interdum odio eu velit ornare, in imperdiet velit sollicitudin. 
-                    Fusce maximus sapien vitae enim efficitur sollicitudin. Morbi leo ante, dapibus at scelerisque quis, suscipit eu metus.
-                </p>
+    </div>
+<div class="container">
+    <div class="row row-content align-items-center">
+        <div class="col">
+            <div class="media">
+                <!--d flex class is there to deal with bug in IE 10 and 11, recommended by bootstrap-->
+                <img class="d-flex mr-3 img-responsive" src="img/Singing.jpg" alt="Woman Singing" width="600" height="400" />
+                <div class="media-body align-self-center">                    
+                    <h2 style="text-align: left"> Mission </h2>
+                    <p class="d-sm-block" style="text-align: left"> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin bibendum lorem ut sapien sodales sodales. Aenean at blandit libero. Proin interdum libero non justo bibendum maximus. 
+                        Fusce commodo, metus eget dignissim commodo, eros eros mollis leo, in iaculis mauris odio pulvinar dolor. </p c>
+                </div>
             </div>
         </div>
     </div>
 
+    <div class="row row-content align-items-center">
+        <div class="col-12">
+            <div class="media mt-5">
+                <!--d flex class is there to deal with bug in IE 10 and 11, recommended by bootstrap-->
+                <div class="media-body align-self-center">                    
+                    <h2 style="text-align: right"> Who We Are </h2>
+                    <p class="d-sm-block mr-2" style="text-align: right"> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin bibendum lorem ut sapien sodales sodales. Aenean at blandit libero. Proin interdum libero non justo bibendum maximus. 
+                        Fusce commodo, metus eget dignissim commodo, eros eros mollis leo, in iaculis mauris odio pulvinar dolor. </p c>
+                </div>
+                <img class="d-flex ml-3 img-responsive" src="img/Concert.png" alt="Concert" width="600" height="400" />
+            </div>
+        </div>
+    </div>
 
+    <div class="row row-content align-items-center">
+        <div class="col-12">
+            <div class="media my-5">
+                <!--d flex class is there to deal with bug in IE 10 and 11, recommended by bootstrap-->
+                <img class="d-flex mr-3 img-responsive" src="img/playing_guitar.jpg" alt="Playing Guitar" width="600" height="400" />
+                <div class="media-body align-self-center">                    
+                    <h2 style="text-align: left"> Our Purpose </h2>
+                    <p class="d-sm-block" style="text-align: left"> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin bibendum lorem ut sapien sodales sodales. Aenean at blandit libero. Proin interdum libero non justo bibendum maximus. 
+                        Fusce commodo, metus eget dignissim commodo, eros eros mollis leo, in iaculis mauris odio pulvinar dolor. </p c>
+                </div>
+               
+            </div>
+        </div>
+    </div>
 
+</div>
+ 
     <footer class="site-footer">
-       <div class="parallax">
         <div class="container">
-            <div class="row">
-                <div class="col-1 col-md-3"></div>
-                <div class="col-2 col-md-1 mt-2 mx-lg-2">
-                    <a href="index.html"> Home </a>
-                </div>
-                <div class="col-2 col-md-1 mt-2 mx-lg-2">
-                    <a href="#"> About </a>
-                </div>
-                <div class = "col-2 col-md-1 mt-2 mx-lg-2">
-                    <a href="#"> Events </a>
-                </div>
-                <div class="col-2 col-md-1 mt-2 mx-lg-2">
-                    <a href="#"> Ministries </a>
-                </div>
-                <div class="col-2 col-md-1 mt-2 mx-3 mx-lg-4">
-                    <a href="prayerrequest.html"> Prayer Request </a>
-                </div>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col" id="footerIcons">
-                <a class="btn btn-social-icon btn-instagram" href="http://instagram.com/"><i class="fa fa-instagram"></i></a>
-                <a class="btn btn-social-icon btn-facebook" href="http://facebook.com/"><i class="fa fa-facebook"></i></a>
-                <a class="btn btn-social-icon btn-twitter" href="http://twitter.com/"><i class="fa fa-twitter"></i></a>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col">
-                <p>555 2nd St., Memphis, TN</p>
-            </div>
-        </div>
-        <div class="row">
-                <div class="col">                      
-                    <p> <i class="fa fa-copyright align-content-center" aria-hidden="true"></i> CSJ Designs</p>
-                    </div>   
-            </div>  
-        </div>  
+            <div class="col"></div>
+         <nav class="navbar navbar-expand-md navbar-dark">
+             <ul class="navbar-nav mx-auto text-center">
+               <li class="nav-item"><a class="nav-link" href="index.html"> Home </a></li> 
+               <li class="nav-item"><a class="nav-link" href="#"> About </a></li>
+               <li class="nav-item"><a class="nav-link" href="#"> Events </a cl> </li>
+               <li class="nav-item"><a class="nav-link" href="#"> Ministries </a></li>
+               <li class="nav-item"><a class="nav-link" href="prayerrequest.html"> Prayer Request </a></li cla>
+             </ul>
+         </nav>
+       </div>
+       <div class="container">
+           <div class="row">
+               <div class="col" style="text-align: center">
+                   <a class="btn btn-social-icon btn-instagram" href="http://instagram.com/"><i class="fa fa-instagram"></i></a>
+                   <a class="btn btn-social-icon btn-facebook" href="http://facebook.com/"><i class="fa fa-facebook"></i></a>
+                   <a class="btn btn-social-icon btn-twitter" href="http://twitter.com/"><i class="fa fa-twitter"></i></a>
+               </div>
+           </div>
+           <div class="row">
+               <div class="col">
+                   <p>555 2nd St., Memphis, TN</p>
+               </div>
+           </div>
+           <div class="row">
+                   <div class="col">                      
+                       <p> <i class="fa fa-copyright align-content-center" aria-hidden="true"></i> CSJ Designs</p>
+                       </div>   
+               </div>
+           </div>           
     </footer>
 
     <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
