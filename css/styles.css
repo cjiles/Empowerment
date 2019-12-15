@@ -1,18 +1,20 @@
-body{
+body, h1{
     font-family: "Oswald", sans-serif;
 }
 
-h1, h2, h3{
+h2, h3{
     font-family: "Lobster Two", cursive;
     color: #300b1f;
 }
-h2{
-    color: #300b1f;
+
+h2 {
+    color: #330000;
     text-align: center;
     font-size: 8vh;
     margin-top: 2rem;
     margin-bottom: 2rem;
 }
+
 h1{
     color: white;
     margin-top: 2rem;
@@ -32,10 +34,13 @@ p {
 
 .parallax1 p{
     font-size: 4vh;
+    color: white;
+    font-weight: bolder;
 }
 
 .parallax1 h2{
     font-size: 10vh;
+    color: white;
 }
 
 .site-header {
@@ -104,17 +109,20 @@ p {
 
 .img{
     padding: 30px;
+ 
 }
 
 .jumbotron{
     background-color:  #895d71;
     text-align: center;    
+    background-image: url("../img/raisedhands.png");
+    background-size: cover;
+    background-repeat: no-repeat;
 }
-.jumbotron h1{
-    color:white;
+.jumbotron h1, .jumbotron h2{
+    color: white;
     font-family: "Oswald", sans-serif;
+    margin-bottom: 0rem;
+    margin-top: 0rem;
 }
 
-.jumbotron h2{
-    font-family: "Oswald", sans-serif;
-}
